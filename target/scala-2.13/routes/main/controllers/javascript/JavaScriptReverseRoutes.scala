@@ -18,6 +18,46 @@ package controllers.javascript {
     }
 
   
+    // @LINE:11
+    def callApi: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.callApi",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "call-api"})
+        }
+      """
+    )
+  
+    // @LINE:12
+    def getPosts: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.getPosts",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "posts"})
+        }
+      """
+    )
+  
+    // @LINE:16
+    def getInfo: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.getInfo",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "getInfo2"})
+        }
+      """
+    )
+  
+    // @LINE:15
+    def getUserFormInformation: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.getUserFormInformation",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "getInfo"})
+        }
+      """
+    )
+  
     // @LINE:9
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.index",
@@ -38,19 +78,9 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:12
-    def getUserFormInformation: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.getUserFormInformation",
-      """
-        function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "getInfo"})
-        }
-      """
-    )
-  
   }
 
-  // @LINE:16
+  // @LINE:20
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -58,7 +88,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:16
+    // @LINE:20
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """
@@ -68,7 +98,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:17
+    // @LINE:21
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

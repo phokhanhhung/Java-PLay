@@ -1,0 +1,14 @@
+@(posts: List[models.PostModel])
+
+@callApi({
+  
+  <ul>
+  @if(@posts.size() > 0) {
+    @for(post <- posts) {
+      <li>@post.getId()</li>
+    }
+  }
+  </ul>
+ 
+})
+  

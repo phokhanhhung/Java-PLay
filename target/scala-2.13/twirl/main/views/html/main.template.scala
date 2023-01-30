@@ -53,9 +53,12 @@ Seq[Any](format.raw/*8.1*/("""
             <li class="nav-item">
                 <a class="nav-link" href="/login">Login</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/call-api">Call api</a>
+            </li>
         </ul>
-        """),_display_(/*29.10*/content),format.raw/*29.17*/("""
-        """),format.raw/*30.9*/("""<script src=""""),_display_(/*30.23*/routes/*30.29*/.Assets.versioned("javascripts/hello.js")),format.raw/*30.70*/("""" type="text/javascript"></script>
+        """),_display_(/*32.10*/content),format.raw/*32.17*/("""
+        """),format.raw/*33.9*/("""<script src=""""),_display_(/*33.23*/routes/*33.29*/.Assets.versioned("javascripts/hello.js")),format.raw/*33.70*/("""" type="text/javascript"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
@@ -76,9 +79,9 @@ Seq[Any](format.raw/*8.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/main.scala.html
-                  HASH: 26dfdc2ca762d8d1af7f7c0cab02773ba4e310e9
-                  MATRIX: 1165->260|1289->291|1316->292|1396->397|1432->406|1467->414|1493->419|1582->481|1597->487|1660->528|1748->589|1763->595|1824->634|2112->985|2148->994|2460->1279|2488->1286|2524->1295|2565->1309|2580->1315|2642->1356
-                  LINES: 32->7|37->8|38->9|41->12|42->13|42->13|42->13|43->14|43->14|43->14|44->15|44->15|44->15|48->20|49->21|57->29|57->29|58->30|58->30|58->30|58->30
+                  HASH: 54091895a8a03c2505bb8ac3b3d7a92af184ab6c
+                  MATRIX: 1165->260|1289->291|1316->292|1396->397|1432->406|1467->414|1493->419|1582->481|1597->487|1660->528|1748->589|1763->595|1824->634|2112->985|2148->994|2578->1397|2606->1404|2642->1413|2683->1427|2698->1433|2760->1474
+                  LINES: 32->7|37->8|38->9|41->12|42->13|42->13|42->13|43->14|43->14|43->14|44->15|44->15|44->15|48->20|49->21|60->32|60->32|61->33|61->33|61->33|61->33
                   -- GENERATED --
               */
           

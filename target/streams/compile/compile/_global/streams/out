@@ -1,11 +1,13 @@
-[0m[[0m[33mwarn[0m] [0m[0mD:\WEB\JAVA\login\app\views\login.scala.html:5:52: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getUserFormInformation,[0m
-[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
-[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  <!-- @helper.form(action = routes.HomeController.getUserFormInformation) {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mD:\WEB\JAVA\login\app\views\login.scala.html:11:73: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getUserFormInformation,[0m
-[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
-[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  <form class="login-form" method="post" action="@routes.HomeController.getUserFormInformation">[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                                        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mD:\WEB\JAVA\login\app\controllers\HomeController.java:33:1: method render in class views.html.callApi cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m  required: java.util.List<models.PostModel>[0m
+[0m[[0m[31merror[0m] [0m[0m  found: no arguments[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0mcallApi.render[0m
+[0m[[0m[31merror[0m] [0m[0mD:\WEB\JAVA\login\app\controllers\HomeController.java:54:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable posts1[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mposts1[0m
+[0m[[0m[31merror[0m] [0m[0mD:\WEB\JAVA\login\app\controllers\HomeController.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   method render(java.util.ArrayList<models.PostModel>)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: variable posts of type java.util.ArrayList<models.PostModel>[0m
+[0m[[0m[31merror[0m] [0m[0mposts.render[0m

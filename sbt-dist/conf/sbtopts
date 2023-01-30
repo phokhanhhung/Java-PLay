@@ -10,6 +10,7 @@
 # Starts sbt even if the current directory contains no sbt project.
 #
 -sbt-create
+-Dsbt.server.forcestart=true
 
 # Path to global settings/plugins directory (default: ~/.sbt)
 #

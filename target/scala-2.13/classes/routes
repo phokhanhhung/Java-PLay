@@ -8,8 +8,12 @@
 
 GET / controllers.HomeController.index
 GET /login controllers.HomeController.login(request: Request)
+GET /call-api controllers.HomeController.callApi
+GET /posts controllers.HomeController.getPosts
+
 +nocsrf
 POST /getInfo controllers.HomeController.getUserFormInformation(request: Request)
+POST /getInfo2 controllers.HomeController.getInfo(request: Request)
 
 # Map static resources from the /public folder to the /assets URL path
 

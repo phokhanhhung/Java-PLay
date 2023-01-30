@@ -1,0 +1,12 @@
+@(data: Html)
+
+@main("Call Api") {
+  <ul>
+    @if(@posts.size() > 0) {
+      @for(post <- posts) {
+        <li>@post.getId()</li>
+      }
+    }
+    </ul>
+  <a class="btn btn-primary" href="/posts" role="button">Get posts</a>
+}

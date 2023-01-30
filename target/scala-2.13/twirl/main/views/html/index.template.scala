@@ -32,7 +32,7 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*1.4*/("""
 
 """),_display_(/*3.2*/main("Home")/*3.14*/ {_display_(Seq[Any](format.raw/*3.16*/("""
-  """),format.raw/*4.3*/("""<h1>Welcome play</h1>
+  """),format.raw/*4.3*/("""<h1>Hế lu anh</h1>
 """)))}))
       }
     }
@@ -50,7 +50,7 @@ Seq[Any](format.raw/*1.4*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/index.scala.html
-                  HASH: 1ff925b79b3c90001273f2adbf28cd94edf9d0d4
+                  HASH: 9e788921fe9ebe78623905798823f53c75c26493
                   MATRIX: 900->1|996->3|1026->8|1046->20|1085->22|1115->26
                   LINES: 27->1|32->1|34->3|34->3|34->3|35->4
                   -- GENERATED --
